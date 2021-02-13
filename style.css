@@ -65,6 +65,7 @@ input[type="radio"]{
 #chat {
     width: 70px;
     position: absolute;
+    z-index:99;
 }
 
 #chat:hover{
@@ -74,4 +75,15 @@ input[type="radio"]{
 .textoFinal {
     align-items: center;
     margin-left: 90px;
+}
+
+.chatBox {
+    width: 30%;
+    background-color: #dbdada;
+    position: absolute;
+    z-index:3;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 60px;
+    display: none;
 }
